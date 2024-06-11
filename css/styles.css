@@ -544,7 +544,7 @@
 
   .modal-conteiner {
     position: relative;
-    margin: 8px; 
+    margin: 8px;
   }
 
   .modal-label {
@@ -713,6 +713,7 @@
   /* -------modal------------- */
   .modal {
     width: 408px;
+  }
   /* ------------------------- */
 }
 @media screen and (min-width: 1158px) {
