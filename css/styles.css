@@ -161,6 +161,9 @@
 
   /* ------------------------- */
   /* -------section3---------- */
+  .box-one {
+    padding-bottom: 96px;
+  }
   .caption {
     font-weight: 700;
     font-size: 36px;
@@ -240,7 +243,9 @@
   }
   /* ------------------------- */
   /* --------section4--------- */
-
+  .portfolio {
+    padding-bottom: 96px;
+  }
   .subject {
     font-weight: 700;
     font-size: 36px;
