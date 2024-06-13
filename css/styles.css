@@ -32,7 +32,7 @@
   }
 
   .container {
-    min-width: 320px;
+    max-width: 320px;
     margin: 0 auto;
   }
   /* ---------header-------- */
@@ -1051,8 +1051,7 @@
   .container-box {
     gap: 24px;
   }
-  .container-social {
-  }
+
   .logo-two {
     display: inline-block;
     text-align: left;
@@ -1063,16 +1062,16 @@
   .social-text {
     text-align: left;
   }
-  .form {
-  }
 
   /* ------------------------- */
   /* -------modal------------- */
+
   .modal {
     width: 408px;
   }
   /* ------------------------- */
 }
+
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
