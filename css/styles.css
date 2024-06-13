@@ -37,7 +37,16 @@
     margin: 0 auto;
   }
   /* ---------header-------- */
-
+  .page-header .container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
+  }
+  .page-header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
   .logo {
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
@@ -53,6 +62,7 @@
     gap: 0px;
     position: relative;
     color: #404bbf;
+    margin: 16px 0;
   }
   .accent {
     font-family: "Raleway", sans-serif;
@@ -66,13 +76,17 @@
 
   .mob-menu-btn {
     position: absolute;
+    display: block;
     width: 24px;
     height: 24px;
     top: 16px;
     right: 16px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0;
+    margin-bottom: 16px;
+    background-color: #e7e9fc;
   }
   .mob-svg {
     color: #2f2f37;
@@ -84,7 +98,6 @@
     display: none;
   }
 
-  /*  */
   .mob-menu {
     top: 0;
     position: fixed;
@@ -94,12 +107,32 @@
     padding: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
   }
 
   .mob-btn-close {
     display: block;
     margin-left: auto;
     margin-bottom: 105px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .mob-close-svg {
   }
@@ -117,7 +150,6 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
-    margin-top: auto;
   }
   .nav-mob .mob-tag:focus {
     color: #404bbf;
@@ -132,6 +164,8 @@
     gap: 40px;
   }
   .page-mob {
+    margin-bottom: 48px;
+    gap: 24px;
   }
   .page-mob-address {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -147,8 +181,6 @@
   }
 
   .mob-social {
-    display: flex;
-    gap: 40px;
     padding-left: 0;
     margin: 0;
   }
@@ -161,6 +193,8 @@
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
+    display: flex;
+    gap: 40px;
   }
   .mob-box-icon-icon {
     width: 40px;
