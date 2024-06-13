@@ -35,6 +35,7 @@
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
+    /* ---------header-------- */
   }
   /* ------------------------- */
   /* ---------section-------- */
@@ -46,7 +47,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-mob.jpg);
+      url(../images/dark-mob.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +61,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Dark-mob-2x.jpg);
+        url(../images/dark-mob-2x.jpg);
     }
   }
 
@@ -682,6 +683,8 @@
     padding: 0 108px;
     width: 768px;
   }
+  /* ---------header-------- */
+
   /* ------------------------- */
   /* ---------section-------- */
   .cont {
@@ -692,7 +695,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-tab.jpg);
+      url(../images/dark-tab.jpg);
     max-width: 768px;
   }
   @media screen and (min-resolution: 192dpi) {
@@ -701,7 +704,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Dark-tab-2x.jpg);
+        url(../images/dark-tab-2x.jpg);
     }
   }
 
@@ -758,6 +761,8 @@
     padding: 0 15px;
     width: 1158px;
   }
+  /* ---------header-------- */
+
   /* ------------------------- */
   /* ---------section-------- */
   .cont {
