@@ -981,7 +981,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      g url(../images/dark-tab.jpg);
+      url(../images/dark-tab.jpg);
     max-width: 768px;
   }
   @media screen and (min-resolution: 192dpi) {
