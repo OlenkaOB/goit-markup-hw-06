@@ -872,6 +872,92 @@
     width: 768px;
   }
   /* ---------header-------- */
+  .page-header .container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
+  }
+
+  .logo {
+    margin: 24px 0;
+    margin-left: 16px;
+  }
+  .current:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+  .current {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .nav-link {
+    display: flex;
+    gap: 40px;
+    padding-left: 0;
+    margin: 0;
+    color: #404bbf;
+    /* margin-left: 120px;
+    margin-right: 121px; */
+  }
+  .nav-link-tag {
+    position: relative;
+    color: #404bbf;
+  }
+  .nav-tag {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    position: relative;
+    display: block;
+  }
+
+  .address {
+    font-style: normal;
+    gap: 40px;
+  }
+  .page-nav {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .page-nav .link:hover,
+  .page-nav .link:focus {
+    color: #404bbf;
+  }
+  .page-nav-address {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .mob-menu-btn {
+    display: none;
+  }
 
   /* ------------------------- */
   /* ---------section-------- */
@@ -968,6 +1054,18 @@
     width: 1158px;
   }
   /* ---------header-------- */
+  .page-nav {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    padding: 24px 0;
+  }
+  .address {
+    display: flex;
+  }
+  .logo {
+    margin-right: 76px;
+  }
 
   /* ------------------------- */
   /* ---------section-------- */
