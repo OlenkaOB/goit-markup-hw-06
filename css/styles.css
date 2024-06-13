@@ -231,7 +231,7 @@
   .cont {
     background: #2e2f42;
     align-content: center;
-    padding: 72px 0;
+    /* padding: 72px 0; */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -976,7 +976,7 @@
   /* ------------------------- */
   /* ---------section-------- */
   .cont {
-    padding: 112px 0;
+    /* padding: 112px 0; */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1101,7 +1101,7 @@
   /* ------------------------- */
   /* ---------section-------- */
   .cont {
-    padding: 188px 0;
+    /* padding: 188px 0; */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
