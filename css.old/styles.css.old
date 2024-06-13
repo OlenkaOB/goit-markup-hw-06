@@ -511,7 +511,7 @@ p {
 .footer-container {
   display: flex;
   align-items: baseline;
-  width: 1440px;
+  width: 1158px;
 }
 .container-box {
   margin-right: 120px;
