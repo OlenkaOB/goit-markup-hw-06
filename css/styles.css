@@ -32,11 +32,14 @@
   }
 
   .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    min-width: 320px;
     margin: 0 auto;
   }
   /* ---------header-------- */
+  .header-box {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .page-header .container {
     display: flex;
     justify-content: space-between;
@@ -48,7 +51,6 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
   .logo {
-    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -134,8 +136,6 @@
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .mob-close-svg {
   }
 
   .mob-link {
@@ -295,6 +295,10 @@
   }
   /* ------------------------- */
   /* ----------section2---------- */
+  .head-link-conteiner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .head-link {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -351,6 +355,10 @@
 
   /* ------------------------- */
   /* -------section3---------- */
+  .box-one-conteiner {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
   .box-one {
     padding-bottom: 96px;
   }
@@ -433,6 +441,10 @@
   }
   /* ------------------------- */
   /* --------section4--------- */
+  .portfolio-cont {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .portfolio {
     padding-bottom: 96px;
   }
@@ -512,7 +524,10 @@
   }
   /* ------------------------- */
   /* ---------footer---------- */
-
+  .footer-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .box {
     background: #2e2f42;
     padding: 96px 0;
@@ -600,7 +615,6 @@
     fill: #f4f4fd;
   }
   .form {
-    margin: 0 auto;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -869,19 +883,20 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 108px;
-    width: 768px;
+    max-width: 768px;
   }
   /* ---------header-------- */
+
   .page-header .container {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
+    align-items: center;
   }
 
   .logo {
-    margin: 24px 0;
-    margin-left: 16px;
+    padding: 17px 0;
+    margin-right: 120px;
   }
   .current:after {
     content: "";
@@ -910,8 +925,6 @@
     padding-left: 0;
     margin: 0;
     color: #404bbf;
-    /* margin-left: 120px;
-    margin-right: 121px; */
   }
   .nav-link-tag {
     position: relative;
@@ -949,8 +962,8 @@
   .link {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
@@ -963,14 +976,12 @@
   /* ------------------------- */
   /* ---------section-------- */
   .cont {
-    background: #2e2f42;
-    align-content: center;
     padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/dark-tab.jpg);
+      g url(../images/dark-tab.jpg);
     max-width: 768px;
   }
   @media screen and (min-resolution: 192dpi) {
@@ -990,7 +1001,10 @@
   }
   /* ------------------------- */
   /* ----------section2---------- */
-
+  .head-link-conteiner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .list {
     gap: 72px 24px;
   }
@@ -1004,11 +1018,19 @@
   }
   /* ------------------------- */
   /* -------section3---------- */
+  .box-one-conteiner {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
   .box-list {
     width: calc((100% - 24px) / 2);
   }
   /* ------------------------- */
   /* --------section4--------- */
+  .portfolio-cont {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .heading-class {
     width: calc((100% - 24px) / 2);
   }
@@ -1023,6 +1045,8 @@
     align-items: baseline;
     flex-direction: row;
     gap: 72px 24px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
   .container-box {
     gap: 24px;
@@ -1051,10 +1075,13 @@
 }
 @media screen and (min-width: 1158px) {
   .container {
-    padding: 0 15px;
-    width: 1158px;
+    max-width: 1158px;
   }
   /* ---------header-------- */
+  .header-box {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
   .page-nav {
     display: flex;
     gap: 40px;
@@ -1066,13 +1093,15 @@
   }
   .logo {
     margin-right: 76px;
+    font-size: 18px;
   }
-
+  .link {
+    font-size: 16px;
+    line-height: 1.5;
+  }
   /* ------------------------- */
   /* ---------section-------- */
   .cont {
-    background: #2e2f42;
-    align-content: center;
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1093,6 +1122,10 @@
 
   /* ------------------------- */
   /* ----------section2---------- */
+  .head-link-conteiner {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
 
   .list {
     gap: 24px;
@@ -1126,6 +1159,10 @@
   }
   /* ------------------------- */
   /* -------section3---------- */
+  .box-one-conteiner {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
   .box-list {
     width: calc((100% - 72px) / 4);
   }
@@ -1134,6 +1171,10 @@
   }
   /* ------------------------- */
   /* --------section4--------- */
+  .portfolio-cont {
+    padding-left: 88px;
+    padding-right: 88px;
+  }
   .heading-image picture {
     flex-shrink: 0;
   }
@@ -1155,6 +1196,8 @@
     flex-direction: row;
     align-items: baseline;
     width: 1158px;
+    padding-left: 88px;
+    padding-right: 88px;
   }
   .logo-two {
     display: inline-block;
