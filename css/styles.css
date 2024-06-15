@@ -132,7 +132,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .nav-tag.current {
+  .mob-tag.current {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
   }
@@ -913,6 +913,12 @@
     background-color: #404bbf;
     border-radius: 2px;
   }
+
+  .nav-tag.current {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+  }
+
   .current {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
