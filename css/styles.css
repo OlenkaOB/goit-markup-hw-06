@@ -900,7 +900,9 @@
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
   }
-
+  .logo {
+    margin-right: 80px;
+  }
   .current:after {
     content: "";
     width: 100%;
