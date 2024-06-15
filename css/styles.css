@@ -1187,7 +1187,9 @@
 
   /* ------------------------- */
   /* ---------footer---------- */
-
+  .container.footer-container {
+    justify-content: center;
+  }
   .box {
     padding: 100px 0;
   }
@@ -1212,8 +1214,8 @@
   }
   .container-social {
     align-content: normal;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
   }
   .social-text {
     text-align: left;
