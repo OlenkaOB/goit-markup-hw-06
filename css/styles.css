@@ -450,7 +450,7 @@
   /* ------------------------- */
   /* --------section4--------- */
   .portfolio-cont {
-    padding: 96px 16px;
+    padding: 0px 16px;
   }
   .portfolio {
     padding-bottom: 96px;
@@ -1039,10 +1039,7 @@
   }
   /* ------------------------- */
   /* --------section4--------- */
-  .portfolio-cont {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+
   .heading-class {
     width: calc((100% - 24px) / 2);
   }
